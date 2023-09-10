@@ -5,7 +5,7 @@ export default function Counter () {
     const increment = () =>{
         let newCount = count + 1;
         let newCount1 = count++;
-        setCount(newCount1)
+        setCount(newCount)
     }
     return (
         <div>
